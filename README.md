@@ -1,5 +1,5 @@
-# Delani Studio.
-#### A To-do-list Website, 29/08/2019.
+# To-Do-List.
+#### A planner/To-do-list Website, 29/08/2019.
 #### By **[Isaac Gichuru.](https://github.com/Isaacg94/delani-studio/tree/master)**
 ![alt text](images/screenshot1.png)
 
