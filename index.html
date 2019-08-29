@@ -10,54 +10,55 @@
     <title>To Do List!</title>
   </head>
   <body>
-    <div class="container">
-      <!-- <div class="jumbotron">
-        <h1><strong>To Do List</strong></h1>
-      </div> -->
-      <h1 id="header-text"><strong>To Do List</strong></h1>
-      <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card all-tasks">
-              <div class="card-header">
-                <h1>All Tasks</h1>
-              </div>
-              <div class="card-body">
-                <form id="new-task-form">
-                  <div class="form-group">
-                    <input id="newTaskItem" name="new-task" class="form-control" placeholder="New task here..." required="required" data-error="Please, input task"></input>
-                    </div>
+    <div class="container-fluid">
+      <div class="container">
+        <h1 id="header-text"><strong>To Do List</strong></h1>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card all-tasks">
+                <div class="card-header">
+                  <h1>All Tasks</h1>
+                </div>
+                <div class="card-body">
+                  <form id="new-task-form">
+                    <div class="form-group">
+                      <input id="newTaskItem" name="new-task" class="form-control" placeholder="New task here..." required="required" data-error="Please, input task"></input>
+                      </div>
 
-                    <button onclick="submit()" id="submit" type="submit" class="btn btn-primary">Add!</button>
-                </form>
-                <div class="allTheTasks">
-                  <ul id="all-tasks">
+                      <button onclick="submit()" id="submit" type="submit" class="btn btn-primary">Add!</button>
+                  </form>
+                  <div class="allTheTasks">
+                    <ul id="all-tasks">
 
-                  </ul>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
 
-          <div class="col-md-6">
-            <div class="card done-tasks">
-              <div class="card-header">
-                <h1>Completed Tasks</h1>
-              </div>
-              <div class="card-body">
-                <div id="show-completed-tasks">
-                  <ul id="completed-tasks">
+            <div class="col-md-6">
+              <div class="card done-tasks">
+                <div class="card-header">
+                  <h1>Completed Tasks</h1>
+                </div>
+                <div class="card-body">
+                  <div id="show-completed-tasks">
+                    <ul id="completed-tasks">
 
-                  </ul>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
+          </div>
         </div>
       </div>
+
     </div>
+
 
   </body>
 </html>
